@@ -17,7 +17,7 @@ jobs = pd.read_csv(csv_file_path)
 
 @app.route("/")
 def home_view():
-        return "<h1>Welcome to our app</h1>"
+        return "hello from the other side"
 # Define the number of items per page
 ITEMS_PER_PAGE = 10
 
